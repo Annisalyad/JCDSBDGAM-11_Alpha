@@ -327,7 +327,6 @@ Model XGBoost best dapat mengidentifikasi tamu hotel yang kemungkinan besar akan
 **Business Recommendations**
 
 - **Terapkan model dalam sistem manajemen pemesanan hotel** untuk menandai tamu berisiko tinggi pembatalan pada saat pemesanan dilakukan, memungkinkan tim revenue management untuk secara selektif melakukan tindakan intervensi hanya kepada tamu yang diprediksi akan membatalkan, dengan target penghematan **15,750 euro per 17.029 pemesanan** dibandingkan tidak menggunakan model sama sekali, dan **410,430 euro** dibandingkan model tanpa tuning.
-- 
 -  **Prioritaskan penanganan segmen pasar berisiko tinggi** yang diidentifikasi oleh SHAP plot seperti segmen **Online Travel Agent (OTA)** dan tamu dengan **histori pembatalan sebelumnya**, dengan menerapkan kebijakan pemesanan yang lebih ketat seperti deposit wajib atau batas waktu konfirmasi lebih awal, untuk menekan angka **2.011 pembatalan yang tidak terdeteksi** dan mengurangi kerugian FN sebesar **211,155 euro**
 
 - **Integrasikan model dengan sistem Early Warning Dashboard** yang menampilkan daftar tamu berisiko tinggi secara real-time kepada tim operasional hotel setiap hariny
