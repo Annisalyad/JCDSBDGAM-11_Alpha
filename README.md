@@ -294,11 +294,13 @@ param_spacexgb = {
 
 **Performance Metrics:**
 - *Sebelum Tunning*: basexgb MODEL
+  
 fbeta Train = 67.34%
 
 fbeta Test = 62.86%
 
 - *Setelah Tunning*: bestxgb MODEL
+  
 fbeta Train = 75.62%
 
 fbeta Test = 70.87%
@@ -307,17 +309,17 @@ fbeta Test = 70.87%
 
 *Tanpa Model:*
 
-- Prediksi semua = 0 (tidak batal)
+- Prediksi semua = 0 (tidak batal) --->
 Total Cost: 4,761 x -105 euro = **-499,905 euro**
-- Prediksi semua = 1 (batal):
+- Prediksi semua = 1 (batal) ---> 
 Total Cost: 2,268 × 300 = **-3,680,400 euro**
 
 *Dengan Model:*
 
-- Base Model
+- Base Model --->
 Total Cost= **-894,585 euro**
-- Best Model
-Total Cost: **-484,115 euro**
+- Best Model --->
+Total Cost: **-484,115 euro** ->
 Penghematan: **15,75 euro**
 
 Model XGBoost best dapat mengidentifikasi tamu hotel yang kemungkinan besar akan membatalkan pemesanan mereka dengan **akurasi 75.14%**, artinya dari setiap 100 tamu yang diprediksi akan membatalkan, sekitar 75 tamu benar-benar akan membatalkan pemesanan, sehingga hotel dapat melakukan intervensi yang lebih tepat sasaran dan efisien.
