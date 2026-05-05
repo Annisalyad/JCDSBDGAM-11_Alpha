@@ -91,7 +91,27 @@ Dengan pendekatan ini, model yang dikembangkan tidak hanya berfungsi sebagai ala
 - Feature engineering dan selection
   
 2. Exploratory Data Analysis (EDA)
--
+
+Analisis distribusi target is_canceled:
+- Proporsi booking dibatalkan (1) vs tidak dibatalkan (0)
+- Cek keseimbangan data (imbalanced vs balanced)
+  
+Univariate Analysis (Analisis Satu Variabel)
+- Variabel numerik: Statistik deskriptif, Distribusi (histogram / boxplot)
+- Variabel kategorikal: Frekuensi tiap kategori, Proporsi kategori
+
+Bivariate Analysis (Analisis Dua Variabel), Melihat hubungan antara fitur dengan target (is_canceled):
+- deposit_type vs cancellation
+- lead_time vs cancellation
+- market_segment vs cancellation
+- Visualisasi:
+- Bar chart
+- Boxplot
+- Crosstab
+
+Multivariate Analysis, Korelasi antar variabel numerik:
+- Heatmap korelasi
+- Identifikasi fitur yang paling berpengaruh terhadap target
 
 3. Machine Learning Modeling
 - Binary classification problem (canceled vs non-canceled)
