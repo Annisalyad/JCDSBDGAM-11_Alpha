@@ -124,11 +124,11 @@ Keterangan:
 ****
 gfhjh
 
-Dataset:
-Total Data: 86,940 Transaksi pemesanan kamar hotel
-Features: 32 columns (setelah cleaning dan feature engineering)
-Target Variable: is_canceled (Yes/No atau 1/0)
-Key Features:
+- Dataset:
+- Total Data: 86,940 Transaksi pemesanan kamar hotel
+- Features: 32 columns (setelah cleaning dan feature engineering)
+- Target Variable: is_canceled (Yes/No atau 1/0)
+- Key Features:
 ---
 <div style="padding:6px 10px; margin:12px 0; background-color:#368412; color:white; font-weight:600; border-radius:6px;">
     Struktur Variabel
