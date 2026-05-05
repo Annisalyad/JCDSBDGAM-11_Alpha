@@ -337,14 +337,13 @@ Model XGBoost best dapat mengidentifikasi tamu hotel yang kemungkinan besar akan
 - Visualization: matplotlib, seaborn, folium (geospatial heatmap), Tableau Public
 - Machine Learning:scikit-learn, XGBoost, imbalanced-learn, SHAP, category-encoders
 - Deployment: Streamlit, pickle (model persistence)
-- 
 ****
 **Link Tableau** : https://public.tableau.com/views/PortugalHotelBookingDemandDashboard/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 **Link Streamlit**: https://finpro-ds-it39wabbxb2kztzj9axplu.streamlit.app/
 
-**Link PPT**: 
+**Link PPT**: https://canva.link/wa75modrbdwgi1t
 
 ****
-### DOkumentasi
+### Dokumentasi
 ****
