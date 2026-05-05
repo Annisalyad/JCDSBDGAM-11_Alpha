@@ -89,17 +89,16 @@ Dengan pendekatan ini, model yang dikembangkan tidak hanya berfungsi sebagai ala
 1. Data Collection & Preprocessing
 - Handling missing values, duplicate removal
 - Feature engineering dan selection
+  
 2. Exploratory Data Analysis (EDA)
-Fokus Demografi:
-Fokus Geografi:
-Fokus Contract and Services:
-Fokus Monetary:
+-
 
 3. Machine Learning Modeling
-Binary classification problem (canceled vs non-canceled)
-Algoritma: Logistic Regression, Decision Tree, Random Forest, XGBoost
-Handling imbalanced data: SMOTE, RandomOverSampler, RandomUnderSampler, NearMiss, class_weight='balanced'
-Hyperparameter tuning menggunakan RandomizedSearchCV
+- Binary classification problem (canceled vs non-canceled)
+- Algoritma: Logistic Regression, Decision Tree, Random Forest, XGBoost
+- Handling imbalanced data: SMOTE, RandomOverSampler, RandomUnderSampler, NearMiss, class_weight='balanced'
+- Hyperparameter tuning: RandomizedSearchCV
+  
 4. Model Interpretation
 SHAP values untuk explainability
 
