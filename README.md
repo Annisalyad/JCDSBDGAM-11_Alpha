@@ -290,15 +290,17 @@ param_spacexgb = {
   
     "model__n_estimators"     : [100, 200, 300],
   
-    "model__scale_pos_weight" : [1, 2, 3]    
-}
-- Performance Metrics: 
-*Sebelum Tunning*: basexgb MODEL
+    "model__scale_pos_weight" : [1, 2, 3]}
+
+**Performance Metrics:**
+- *Sebelum Tunning*: basexgb MODEL
 fbeta Train = 67.34%
+
 fbeta Test = 62.86%
 
-*Setelah Tunning*: bestxgb MODEL
+- *Setelah Tunning*: bestxgb MODEL
 fbeta Train = 75.62%
+
 fbeta Test = 70.87%
 
 **Business Impact**
