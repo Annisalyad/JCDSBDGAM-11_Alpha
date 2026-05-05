@@ -122,9 +122,7 @@ Keterangan:
 ****
 ### Dataset Description
 ****
-gfhjh
-
-- Dataset:
+- Dataset: Kaggle-Hotel booking demand
 - Total Data: 86,940 Transaksi pemesanan kamar hotel
 - Features: 32 columns (setelah cleaning dan feature engineering)
 - Target Variable: is_canceled (Yes/No atau 1/0)
